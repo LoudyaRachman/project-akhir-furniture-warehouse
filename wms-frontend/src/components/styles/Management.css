@@ -1,0 +1,110 @@
+.management-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(93, 58, 26, 0.35);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(166, 124, 82, 0.4);
+  color: #5a4326; /* coklat tua untuk teks utama */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Judul */
+.management-container h2,
+.management-container h3 {
+  color: #6e552c; /* coklat medium gelap */
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6); /* shadow putih agar teks lebih pop */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Form */
+.management-container form {
+  margin-bottom: 24px;
+}
+
+.management-container input,
+.management-container select,
+.management-container textarea {
+  margin: 8px 0 16px 0;
+  padding: 12px;
+  border: 1.5px solid #a67c52;
+  border-radius: 12px;
+  font-size: 15px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.12);
+  color: #5a4326; /* teks input lebih gelap */
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.management-container input::placeholder,
+.management-container textarea::placeholder {
+  color: #a67c52; /* placeholder medium coklat */
+  font-style: italic;
+}
+
+.management-container input:focus,
+.management-container select:focus,
+.management-container textarea:focus {
+  border-color: #c19a6b;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  box-shadow: 0 0 10px rgba(193, 154, 107, 0.5);
+}
+
+/* Tombol */
+.management-container button {
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #a67c52, #c19a6b);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 8px;
+  transition: 0.3s ease;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 6px 16px rgba(166, 124, 82, 0.6);
+}
+
+.management-container button:hover {
+  background: linear-gradient(135deg, #c19a6b, #a67c52);
+  box-shadow: 0 8px 20px rgba(166, 124, 82, 0.8);
+}
+
+/* Tabel */
+.management-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.management-container th,
+.management-container td {
+  border: 1px solid rgba(166, 124, 82, 0.3);
+  padding: 12px;
+  text-align: left;
+  color: #5a4326; /* teks tabel lebih gelap */
+}
+
+.management-container th {
+  background: rgba(193, 154, 107, 0.15);
+  color: #6e552c; /* header tabel coklat medium gelap */
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.management-container tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}

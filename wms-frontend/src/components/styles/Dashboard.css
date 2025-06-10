@@ -1,0 +1,76 @@
+.dashboard-container {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 36px 32px;
+  /* background dibuat lebih gelap dan kurang transparan */
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(93, 58, 26, 0.4);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(166, 124, 82, 0.5);
+  /* warna teks dibuat coklat tua agar kontras */
+  color: #5a4326;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Judul utama dashboard */
+.dashboard-container h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #a67c52; /* coklat medium */
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 1px 3px #3e2f15;
+}
+
+/* Paragraf info */
+.dashboard-container p {
+  font-size: 17px;
+  color: #7d633e; /* coklat medium gelap, bukan coklat terang */
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+/* Section statistik */
+.stats-section {
+  margin-top: 36px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 28px 24px;
+  border: 1.5px solid rgba(166, 124, 82, 0.6);
+  box-shadow: 0 6px 20px rgba(166, 124, 82, 0.3);
+}
+
+/* Judul section statistik */
+.stats-section h2 {
+  color: #a67c52; /* coklat medium */
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #3e2f15;
+}
+
+/* Subjudul per kategori statistik */
+.stats-section h3 {
+  color: #9e7e47; /* coklat lebih gelap */
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* List statistik */
+.stats-section ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.stats-section li {
+  font-size: 16px;
+  margin-bottom: 6px;
+  /* warna teks diganti coklat gelap */
+  color: #5a4326;
+}
